@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <!-- 폰에서도 화면 폭에 맞게 보이게 하는 줄 (6편 반응형) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>나만의 빵집 | 다시, 따뜻한 빵을 굽습니다</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== 머리글 : 가게 이름과 메뉴 (2편 · 5편) ===== -->
+  <header class="top">
+    <div class="wrap top-inner">
+      <a href="#" class="logo">🍞 나만의 빵집</a>
+      <nav class="menu">
+        <a href="#about">가게 소개</a>
+        <a href="#breads">빵</a>
+        <a href="#drinks">음료</a>
+        <a href="#visit">오시는 길</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== 첫 화면 (2편 · 4편) ===== -->
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-text">
+        <p class="hero-small">내 손으로 만드는 첫 번째 가게</p>
+        <h1>오늘도 다시,<br>따뜻한 빵 한 조각</h1>
+        <p>우리 밀과 천연 발효종으로 하루 두 번 굽는 동네 빵집입니다.</p>
+        <a href="#breads" class="btn">오늘의 빵 보기</a>
+      </div>
+      <div class="hero-pic">🥐</div>
+    </div>
+  </section>
+
+  <!-- ===== 가게 소개 (2편) ===== -->
+  <section id="about" class="section">
+    <div class="wrap">
+      <h2>가게 소개</h2>
+      <div class="about">
+        <div class="about-box">
+          <span class="about-icon">🌾</span>
+          <h3>우리 밀</h3>
+          <p>국산 밀가루만 씁니다. 속이 편한 빵을 만듭니다.</p>
+        </div>
+        <div class="about-box">
+          <span class="about-icon">⏰</span>
+          <h3>천천히 발효</h3>
+          <p>반죽을 하룻밤 재워 깊은 맛을 냅니다.</p>
+        </div>
+        <div class="about-box">
+          <span class="about-icon">🔥</span>
+          <h3>하루 두 번</h3>
+          <p>아침 7시와 오후 3시, 갓 구운 빵을 내놓습니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 빵 메뉴 : 카드 목록 (3편 목록 · 5편 Flex) ===== -->
+  <section id="breads" class="section section-cream">
+    <div class="wrap">
+      <h2>오늘의 빵</h2>
+      <ul class="cards">
+        <li class="card">
+          <div class="card-pic">🍞</div>
+          <h3>우리밀 식빵</h3>
+          <p>매일 아침 첫 번째로 굽는 기본 식빵</p>
+          <strong class="price">5,500원</strong>
+        </li>
+        <li class="card">
+          <div class="card-pic">🥐</div>
+          <h3>버터 크루아상</h3>
+          <p>겹겹이 바삭한 프랑스식 크루아상</p>
+          <strong class="price">3,800원</strong>
+        </li>
+        <li class="card">
+          <div class="card-pic">🥖</div>
+          <h3>바게트</h3>
+          <p>겉은 바삭, 속은 쫄깃한 긴 빵</p>
+          <strong class="price">4,500원</strong>
+        </li>
+        <li class="card">
+          <div class="card-pic">🍰</div>
+          <h3>딸기 생크림 케이크</h3>
+          <p>주말에만 만드는 조각 케이크</p>
+          <strong class="price">6,000원</strong>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== 음료 : 표 (3편 표) ===== -->
+  <section id="drinks" class="section">
+    <div class="wrap">
+      <h2>음료</h2>
+      <table class="price-table">
+        <thead>
+          <tr><th>음료</th><th>뜨겁게</th><th>차갑게</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>아메리카노</td><td>2,500원</td><td>3,000원</td></tr>
+          <tr><td>카페라테</td><td>3,500원</td><td>4,000원</td></tr>
+          <tr><td>우유</td><td>2,000원</td><td>2,000원</td></tr>
+        </tbody>
+      </table>
+      <p class="note">※ 빵과 함께 주문하시면 음료 500원 할인</p>
+    </div>
+  </section>
+
+  <!-- ===== 오시는 길 · 영업시간 (7편) ===== -->
+  <section id="visit" class="section section-cream">
+    <div class="wrap visit">
+      <div class="visit-info">
+        <h2>오시는 길</h2>
+        <dl>
+          <!-- ★ 내 가게 주소로 바꿔 적으세요 (7편) -->
+          <dt>주소</dt>
+          <dd>경기도 용인시 처인구 중부대로 1479, 광정빌딩 1층<br>(용인터미널 대각선 건너편)</dd>
+          <dt>영업시간</dt>
+          <dd>화~일 07:00 ~ 20:00 (월요일은 쉽니다)</dd>
+          <dt>전화</dt>
+          <dd>000-0000-0000</dd>
+        </dl>
+      </div>
+      <!-- 구글 지도 끼워 넣기 (7편 지도)
+           ★ q= 뒤에 내 가게 주소나 근처 건물 이름을 넣으면 그 자리가 나옵니다 -->
+      <div class="visit-map">
+        <iframe
+          src="https://maps.google.com/maps?q=경기+용인시+처인구+중부대로+1479&z=17&output=embed"
+          title="나만의 빵집 위치 지도"
+          loading="lazy"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 바닥글 (7편) ===== -->
+  <footer class="bottom">
+    <div class="wrap">
+      <p class="logo">🍞 나만의 빵집</p>
+      <!-- ★ 위 「오시는 길」과 같은 주소를 적으세요 (7편 바닥글) -->
+      <p>경기도 용인시 처인구 중부대로 1479, 광정빌딩 1층 · 화~일 07:00 ~ 20:00</p>
+      <p>이 페이지는 「다시날자 코딩」 강좌 1차 실습용 가상 가게입니다.</p>
+      <p>© 2026 다시날자</p>
+    </div>
+  </footer>
+
+</body>
+</html>
